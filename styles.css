@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century;
+  
+} 
+
+header {
+  background: url(../eddiecah.github.io/images/butterfly.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: 00;
+  transition: 0.6s;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-45%,-60%);
+}
+.title h1 {
+  color: #fff;
+  font-size: 73px;
+  font-family: Century;
+}
+.title h2 {
+  color: rgb(182, 111, 70);
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
