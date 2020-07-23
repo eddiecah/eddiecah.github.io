@@ -12,3 +12,13 @@
 .width100 {
   width: 100%;
 }
+
+.butterfly {
+  
+}
+
+.bkg {
+  background-image: url(images/butterfly.jpg);
+  padding: 100px;
+  margin: 100px;
+}
