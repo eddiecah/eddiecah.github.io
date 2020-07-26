@@ -48,9 +48,9 @@ ul li:hover ul li {
 /* Home Page Name Styles - Hero Text */
 .title {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 55%;
-  transform: translate(-45%,-60%);
+  transform: translate(-45%,-50%);
 }
 .title h1 {
   color: #fff;
@@ -60,7 +60,7 @@ ul li:hover ul li {
 .title h2 {
   color: rgb(182, 111, 70);
   font-size: 40px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Century;
 }
 /* Page Container Styles */
 
