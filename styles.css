@@ -58,7 +58,7 @@ ul li:hover ul li {
   font-family: Century;
 }
 .title h2 {
-  color: rgb(182, 111, 70);
+  color: #b66f46;
   font-size: 40px;
   font-family: Century;
 }
@@ -71,4 +71,57 @@ ul li:hover ul li {
   padding: 100px;
   background-color: whitesmoke;
   opacity: .9;
+}
+
+/* sm buttons */
+html, body {
+  margin: 0;
+  background-color: #b66f46;
+  font-family: Century;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #b66f46;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #b66f46;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li a {
+  color: #b66f46;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #b66f46;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
 }
