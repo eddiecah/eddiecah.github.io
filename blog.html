@@ -26,6 +26,28 @@
       href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap"
       rel="stylesheet"
     />
+    <!--Flo Desk Banner JavaScript-->
+    <script>
+      (function (w, d, t, s, n) {
+        w.FlodeskObject = n;
+        var fn = function () {
+          (w[n].q = w[n].q || []).push(arguments);
+        };
+        w[n] = w[n] || fn;
+        var f = d.getElementsByTagName(t)[0];
+        var e = d.createElement(t);
+        var h = "?v=" + new Date().getTime();
+        e.async = true;
+        e.src = s + h;
+        f.parentNode.insertBefore(e, f);
+      })(
+        window,
+        document,
+        "script",
+        "https://assets.flodesk.com/universal.js",
+        "fd"
+      );
+    </script>
   </head>
 
   <body>
@@ -130,31 +152,81 @@
       <!-- Nav ends -->
     </header>
 
-    <div class="container-custom1">
-      <h1 class="title">Sign Up for News & Updates</h1>
-      <h5 class="body-text">
-        Recieve Growth Marketing E-mails Directly to Your Inbox.
-      </h5>
-      <br />
-      <form>
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name" />
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name" />
-          </div>
-          <div class="col">
-            <button type="submit" class="btn btn-dark btn-block">
-              Sign Up
-            </button>
+    <!--Bootstrap Cards for Blog-->
+    <div class="card-columns container-custom4">
+      <!--Sign Up Banner-->
+      <div class="container-custom3 card fd-ef-5f609ce2bf43d867a0bfa13a">
+        <div class="ff__root">
+          <div class="ff__container">
+            <form
+              class="ff__form"
+              action="https://form.flodesk.com/submit"
+              method="post"
+              data-form="fdv2"
+            >
+              <h1 class="title">Sign Up for News & Updates</h1>
+              <h5 class="body-text">
+                Recieve Growth Marketing E-mails Directly to Your Inbox.
+              </h5>
+              <br />
+              <div class="form-row ff__fields">
+                <input type="text" name="name" value="" style="display: none" />
+                <input
+                  type="hidden"
+                  name="submitToken"
+                  value="e540e7d5986a6590d7ab5086d58919a07a7f0f949956ff7a70fa565e2a29f9e237489ec6ae5dbefa08e33799183068963746378e2abb6e526553f0c341c0e6743aac32ed1aa551a679fad53932d17ccaf161bb7d2ea2f5b01166ba0b24b9a369"
+                />
+                <div class="ff__grid">
+                  <div class="col ff__cell fd-form-group">
+                    <input
+                      type="text"
+                      class="form-control fd-form-control ff__control"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col ff__cell fd-form-group">
+                    <input
+                      type="text"
+                      class="form-control fd-form-control ff__control"
+                      placeholder="Last name"
+                    />
+                  </div>
+                  <div class="col ff__cell fd-form-group">
+                    <input
+                      class="form-control fd-form-control ff__control"
+                      type="text"
+                      name="email"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <br />
+                  <div class="col ff__footer">
+                    <button
+                      type="submit"
+                      class="btn btn-dark fd-btn ff__button"
+                      data-form-el="submit"
+                    >
+                      <span>Sign Up</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="fd-success ff__success" data-form-el="success">
+                <p>Thank you for subscribing!</p>
+              </div>
+              <div class="fd-error ff__error" data-form-el="error"></div>
+            </form>
           </div>
         </div>
-      </form>
-    </div>
 
-    <!--Bootstrap Cards for Blog-->
-    <div class="card-columns container-custom2">
+        <img
+          height="1"
+          width="1"
+          style="display: none"
+          src="https://t.flodesk.com/utm.gif?r=5f609ce2bf43d867a0bfa13a"
+        />
+        <script src="https://assets.flodesk.com/form.js?v=1600186705044"></script>
+      </div>
       <div class="card">
         <img
           src="images/Lemons by INgrid M.jpg"

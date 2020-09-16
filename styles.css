@@ -38,6 +38,17 @@ body {
   padding: 50px;
 }
 
+.container-custom3 {
+  padding: 50px;
+  background-color: whitesmoke;
+  opacity: 0.95;
+}
+
+.container-custom4 {
+  margin: 20px;
+  padding: 50px;
+}
+
 /* sm buttons */
 
 section #services {
